@@ -12,11 +12,11 @@ export default class Game {
     this.width = 480;
     this.height = 320;
     this.tileRowCnt = 6;
-    this.tileColumnCnt = 1;
+    this.tileColumnCnt = 10;
     this.over = false;
     this.victory = false;
     this.tiles = [];
-    this.balls = 1;
+    this.balls = 5;
     this.score = 0;
     this.songPlayed = false;
     for(var c=0; c<this.tileColumnCnt; c++) {
